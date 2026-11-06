@@ -2,6 +2,12 @@
 
 A Flutter application for browsing products and viewing product information using the [DummyJSON Products API](https://dummyjson.com/docs/products).
 
+## Screenshots
+
+| Product listing | Product details |
+|---|---|
+| ![Product listing](screenshots/product_listing.png) | ![Product details](screenshots/product_details.png) |
+
 ## Features
 
 - Fetches products from DummyJSON; the catalogue is not hardcoded.
@@ -35,8 +41,8 @@ A Flutter application for browsing products and viewing product information usin
 1. Clone the repository:
 
    ```bash
-   git clone <YOUR_GITHUB_REPOSITORY_URL>
-   cd abeltechsoft_test
+   git clone https://github.com/shiblisha/abeltechsoft-product-explorer.git
+   cd abeltechsoft-product-explorer
    ```
 
 2. Install dependencies:
@@ -141,10 +147,6 @@ For a verbose test report:
 flutter test --reporter expanded
 ```
 
-## Screenshots
-
-Screenshots of the product listing and product details screens are available in [`screenshots`](screenshots/).
-
 ## Build
 
 To create a debug APK:
@@ -167,7 +169,7 @@ build/app/outputs/flutter-apk/app-release.apk
 
 ## Git hygiene
 
-Do not commit generated build output, local IDE state, SDK paths, or machine-specific configuration. Review `.gitignore` before pushing. In particular, do not commit `build/`, `.dart_tool/`, `.idea/`, `android/local.properties`, or signing credentials.
+Generated build output, local IDE state, SDK paths, and machine-specific configuration are excluded using `.gitignore`. In particular, do not commit `build/`, `.dart_tool/`, `.idea/`, `android/local.properties`, or signing credentials.
 
 ## Notes
 
